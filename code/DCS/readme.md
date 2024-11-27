@@ -28,7 +28,8 @@ This module configures Celery and connects to Redis. It sets up the broker and b
 Ensure that Redis is running. Start Redis with the following command:
 
 ```bash
-redis-server```
+redis-server
+```
 
 ### Start Worker Nodes
 In a terminal, start the worker nodes by running the following command:
