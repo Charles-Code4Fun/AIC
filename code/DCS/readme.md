@@ -10,3 +10,11 @@ Broker (Redis): Redis will be used as the message broker for communication betwe
 ```bash
 pip install celery redis
 ```
+
+### Linux
+```bash
+sudo apt install redis-server
+sudo systemctl enable redis-server
+sudo systemctl start redis-server
+```
+
