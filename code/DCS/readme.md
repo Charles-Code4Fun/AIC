@@ -24,3 +24,29 @@ for windows, please check https://github.com/microsoftarchive/redis/releases
 ## Define the celery Configuration
 This module configures Celery and connects to Redis. It sets up the broker and backend for handling task queues and storing results.
 
+## Redis Server
+Ensure that Redis is running. Start Redis with the following command:
+
+```bash
+redis-server```
+
+### Start Worker Nodes
+In a terminal, start the worker nodes by running the following command:
+
+```bash
+celery -A celery_config worker --loglevel=info
+```
+This will start the worker and listen for tasks coming from the master.
+
+Run the Master Node
+Now, execute the master node script to dispatch tasks to the workers and collect the results.
+```bash
+python master.py
+```
+The master node will send tasks to the worker nodes, and the worker will process them and send the results back.
+
+### Demo Output
+```bash
+Task 1 result: 100
+Task 2 result: 12
+```
