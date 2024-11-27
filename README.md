@@ -1,8 +1,8 @@
-# AIC (AI Chain) Technical Document
+# DAIC (Decentralized AI Chain) Technical Document
 
 ## Introduction
 
-AIC (AI Chain) is a pioneering blockchain framework that integrates artificial intelligence (AI) to create a robust ecosystem for decentralized applications. This document outlines the technical aspects, core functionalities, and innovative techniques that define AIC. By leveraging the strengths of both blockchain and AI, AIC aims to enhance data security, optimize resource allocation, and facilitate seamless collaboration among AI agents.
+DAIC (Decentralized AI Chain) is a pioneering blockchain framework that integrates artificial intelligence (AI) to create a robust ecosystem for decentralized applications. This document outlines the technical aspects, core functionalities, and innovative techniques that define AIC. By leveraging the strengths of both blockchain and AI, AIC aims to enhance data security, optimize resource allocation, and facilitate seamless collaboration among AI agents.
 
 ## Objectives
 
