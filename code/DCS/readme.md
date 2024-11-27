@@ -10,11 +10,17 @@ Broker (Redis): Redis will be used as the message broker for communication betwe
 ```bash
 pip install celery redis
 ```
-
+## Redis
+To have Redis installed and running locally or on a server.
 ### Linux
 ```bash
 sudo apt install redis-server
 sudo systemctl enable redis-server
 sudo systemctl start redis-server
 ```
+### Windows
+for windows, please check https://github.com/microsoftarchive/redis/releases
+
+## Define the celery Configuration
+This module configures Celery and connects to Redis. It sets up the broker and backend for handling task queues and storing results.
 
