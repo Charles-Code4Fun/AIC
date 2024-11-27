@@ -64,11 +64,9 @@ DAIC (Decentralized Awareness Intelligence Chain) is a pioneering blockchain fra
 - **Modular Architecture**: AIC supports modular components for easy integration of new functionalities as needed.
 - **Cross-Chain Compatibility**: Enable interactions with other blockchain networks to facilitate data and resource exchange.
 
-## Conclusion
+## Remark
 
 AIC (AI Chain) represents a groundbreaking fusion of blockchain and artificial intelligence, designed to address contemporary challenges in data management, security, and collaborative processes. By harnessing the strengths of both technologies, AIC provides a reliable, efficient, and transparent ecosystem for decentralized applications. Future developments will focus on enhancing system capabilities, improving user experiences, and expanding the network's functionalities.
-
-## Future Work
 
 - **Research on AI Model Optimization**: Explore advanced AI models to further improve decision-making and predictive capabilities.
 - **Community Engagement**: Foster a community of developers and users to contribute to the ongoing evolution of AIC.
