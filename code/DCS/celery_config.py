@@ -5,6 +5,7 @@ from celery.exceptions import Retry
 
 # Create a Celery instance
 app = Celery('distributed_computing', broker='redis://localhost:6379/0', backend='redis://localhost:6379/1')
+app.conf.result_expires = 1800  # Task results will expire after 30mins
 
 # Define a task in the system
 @app.task
